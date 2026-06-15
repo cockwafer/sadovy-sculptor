@@ -11,6 +11,7 @@
 		{ label: 'О себе', href: '#about' },
 		{ label: 'Услуги', href: '#services' },
 		{ label: 'Работы', href: '#portfolio' },
+		{ label: 'Товары', href: '/products' },
 		{ label: 'Контакты', href: '#contact' }
 	];
 

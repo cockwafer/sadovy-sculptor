@@ -103,7 +103,10 @@
 						<p class="mt-1 text-sm text-gray-400">Перезвоню в течение дня</p>
 					</div>
 				{:else}
-					<form onsubmit={handleSubmit} class="space-y-5 overflow-hidden rounded-xl bg-white p-8 dark:bg-white/5">
+					<form
+						onsubmit={handleSubmit}
+						class="space-y-5 overflow-hidden rounded-xl bg-white p-8 dark:bg-white/5"
+					>
 						<div>
 							<label for="name" class="mb-1.5 block text-xs text-gray-400">Имя</label>
 							<input
