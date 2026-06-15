@@ -67,7 +67,7 @@
 		<div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 			{#each services as service, i (service.title)}
 				<div
-					class="group rounded-xl border border-gray-100 bg-white p-8 transition-all duration-500 hover:shadow-lg dark:border-white/10 dark:bg-white/5 dark:hover:shadow-emerald-500/5 {visible
+					class="group overflow-hidden rounded-xl border border-gray-100 bg-white p-8 transition-all duration-500 hover:shadow-lg dark:border-white/10 dark:bg-white/5 dark:hover:shadow-emerald-500/5 {visible
 						? 'animate-fade-up'
 						: 'opacity-0'}"
 					style="animation-delay: {i * 80}ms;"

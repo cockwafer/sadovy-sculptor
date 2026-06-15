@@ -92,7 +92,7 @@
 			<div class={visible ? 'animate-fade-up' : 'opacity-0'} style="animation-delay: 150ms;">
 				{#if submitted}
 					<div
-						class="flex flex-col items-center justify-center rounded-xl bg-white p-16 text-center dark:bg-white/5"
+						class="flex flex-col items-center justify-center overflow-hidden rounded-xl bg-white p-16 text-center dark:bg-white/5"
 					>
 						<div
 							class="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-emerald-50 dark:bg-emerald-500/10"
@@ -103,7 +103,7 @@
 						<p class="mt-1 text-sm text-gray-400">Перезвоню в течение дня</p>
 					</div>
 				{:else}
-					<form onsubmit={handleSubmit} class="space-y-5 rounded-xl bg-white p-8 dark:bg-white/5">
+					<form onsubmit={handleSubmit} class="space-y-5 overflow-hidden rounded-xl bg-white p-8 dark:bg-white/5">
 						<div>
 							<label for="name" class="mb-1.5 block text-xs text-gray-400">Имя</label>
 							<input

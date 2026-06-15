@@ -51,15 +51,15 @@
 				</p>
 
 				<div class="grid grid-cols-3 gap-4">
-					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
+					<div class="overflow-hidden rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<Leaf size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Авторский подход</div>
 					</div>
-					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
+					<div class="overflow-hidden rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<TreePine size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Живые сады</div>
 					</div>
-					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
+					<div class="overflow-hidden rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<Shield size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Гарантия</div>
 					</div>
