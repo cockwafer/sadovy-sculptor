@@ -11,6 +11,13 @@
 			video: '/work1.mp4'
 		},
 		{
+			title: 'Работа 2',
+			category: 'Видео',
+			year: '2024',
+			color: 'from-emerald-100 to-green-200 dark:from-emerald-900/50 dark:to-green-900/50',
+			video: '/work2.mp4'
+		},
+		{
 			title: 'Проект 1',
 			category: 'Ландшафт',
 			year: '2024',
