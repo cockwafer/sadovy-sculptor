@@ -11,7 +11,7 @@
 			video: '/work1.mp4'
 		},
 		{
-			title: 'Работа 2',
+			title: 'Создание ниваки',
 			category: 'Видео',
 			year: '2024',
 			color: 'from-emerald-100 to-green-200 dark:from-emerald-900/50 dark:to-green-900/50',
