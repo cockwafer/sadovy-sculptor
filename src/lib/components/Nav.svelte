@@ -42,9 +42,7 @@
 />
 
 <nav
-	class="fixed top-0 left-0 z-50 w-full transition-all duration-500 {scrolled
-		? 'py-3'
-		: 'py-5'}"
+	class="fixed top-0 left-0 z-50 w-full transition-all duration-500 {scrolled ? 'py-3' : 'py-5'}"
 >
 	<div class="mx-auto max-w-6xl px-4">
 		<div
@@ -53,7 +51,9 @@
 				? 'bg-white/60 shadow-[0_8px_32px_rgba(0,0,0,0.08),inset_0_1px_0_rgba(255,255,255,0.6)] backdrop-blur-2xl dark:bg-white/10 dark:shadow-[0_8px_32px_rgba(0,0,0,0.3),inset_0_1px_0_rgba(255,255,255,0.1)]'
 				: 'bg-white/30 shadow-[0_4px_16px_rgba(0,0,0,0.04),inset_0_1px_0_rgba(255,255,255,0.5)] backdrop-blur-xl dark:bg-white/5 dark:shadow-[0_4px_16px_rgba(0,0,0,0.2),inset_0_1px_0_rgba(255,255,255,0.05)]'}"
 		>
-			<div class="absolute inset-0 rounded-[22px] border border-white/40 dark:border-white/10"></div>
+			<div
+				class="absolute inset-0 rounded-[22px] border border-white/40 dark:border-white/10"
+			></div>
 
 			<a
 				href="#hero"

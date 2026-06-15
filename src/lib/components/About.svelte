@@ -21,9 +21,7 @@
 	<div class="mx-auto max-w-6xl px-6">
 		<div class="grid items-center gap-16 lg:grid-cols-2">
 			<div class={visible ? 'animate-fade-up' : 'opacity-0'} style="animation-delay: 0ms;">
-				<div
-					class="overflow-hidden rounded-2xl shadow-xl"
-				>
+				<div class="overflow-hidden rounded-2xl shadow-xl">
 					<img src="/about.png" alt="Обо мне" class="h-full w-full object-cover" />
 				</div>
 			</div>
@@ -53,15 +51,15 @@
 				</p>
 
 				<div class="grid grid-cols-3 gap-4">
-					<div class="border border-gray-100 p-4 dark:border-white/10">
+					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<Leaf size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Авторский подход</div>
 					</div>
-					<div class="border border-gray-100 p-4 dark:border-white/10">
+					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<TreePine size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Живые сады</div>
 					</div>
-					<div class="border border-gray-100 p-4 dark:border-white/10">
+					<div class="rounded-xl border border-gray-100 p-4 dark:border-white/10">
 						<Shield size={20} class="mb-2 text-emerald-600 dark:text-emerald-400" />
 						<div class="text-xs font-medium text-gray-900 dark:text-white">Гарантия</div>
 					</div>

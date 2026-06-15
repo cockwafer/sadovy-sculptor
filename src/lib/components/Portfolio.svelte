@@ -74,7 +74,9 @@
 		<div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
 			{#each projects as project, i (project.title)}
 				<div
-					class="group cursor-pointer overflow-hidden {visible ? 'animate-fade-up' : 'opacity-0'}"
+					class="group cursor-pointer overflow-hidden rounded-xl {visible
+						? 'animate-fade-up'
+						: 'opacity-0'}"
 					style="animation-delay: {i * 80}ms;"
 				>
 					<div
