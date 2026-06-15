@@ -2,7 +2,7 @@
 	<div class="mx-auto max-w-6xl px-6">
 		<div class="flex flex-col items-center justify-between gap-6 md:flex-row">
 			<div class="flex items-center gap-2.5 text-sm text-gray-900 dark:text-white">
-				<img src="/logo.jpeg" alt="Логотип" class="h-10 w-10 rounded-lg object-cover" />
+				<img src="/logo.jpeg" alt="Логотип" class="h-12 w-12 rounded-lg object-cover" />
 				Садовый скульптор
 			</div>
 

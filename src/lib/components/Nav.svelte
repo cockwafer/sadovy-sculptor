@@ -41,8 +41,8 @@
 			href="/"
 			class="flex items-center gap-3 text-base font-semibold text-gray-900 dark:text-white"
 		>
-			<img src="/logo.jpeg" alt="Логотип" class="h-12 w-12 rounded-xl object-cover" />
-			Садовый скульптор
+			<img src="/logo.jpeg" alt="Логотип" class="h-14 w-14 rounded-xl object-cover" />
+			<span class="ml-1">Садовый скульптор</span>
 		</a>
 
 		<div class="hidden items-center gap-1 md:flex">
