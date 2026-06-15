@@ -41,7 +41,7 @@
 			href="/"
 			class="flex items-center gap-3 text-base font-semibold text-gray-900 dark:text-white"
 		>
-			<img src="/logo.jpeg" alt="Логотип" class="h-14 w-14 rounded-xl object-cover" />
+			<img src="/logo.jpeg" alt="Логотип" class="h-14 w-14 rounded-xl object-cover ring-4 ring-white dark:ring-gray-950" />
 			<span class="ml-1">Садовый скульптор</span>
 		</a>
 
