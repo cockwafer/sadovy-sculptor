@@ -51,15 +51,12 @@
 	id="hero"
 	class="relative flex min-h-screen items-center overflow-hidden bg-gray-50 dark:bg-gray-950"
 >
-	<div class="relative mx-auto max-w-6xl px-6 pt-32 pb-20">
-		<div class="mb-10">
-			<img
-				src="/hero-preview.png"
-				alt="Превью"
-				class="w-full rounded-3xl object-cover shadow-2xl dark:shadow-2xl/30"
-			/>
-		</div>
+	<div
+		class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-15"
+		style="background-image: url('/hero-preview.png');"
+	></div>
 
+	<div class="relative mx-auto max-w-6xl px-6 pt-32 pb-20">
 		<div style="opacity: {contentOpacity}; transform: translateY({contentTranslate}px);">
 			<div class="mb-8 flex items-center gap-3">
 				<div class="h-px w-10 bg-emerald-600"></div>
