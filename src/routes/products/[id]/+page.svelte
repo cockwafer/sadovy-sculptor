@@ -12,7 +12,7 @@
 	<title>{data.product.name} — Садовый скульптор</title>
 </svelte:head>
 
-<div class="min-h-screen bg-gray-50 pt-28 pb-20 dark:bg-gray-950">
+<div class="min-h-screen bg-gray-50 pt-24 pb-20 dark:bg-gray-950">
 	<div class="mx-auto max-w-6xl px-6">
 		<a
 			href="/products"
